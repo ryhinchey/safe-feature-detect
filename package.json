@@ -1,6 +1,6 @@
 {
   "name": "safe-feature-detect",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A simple and tiny browser feature detection library",
   "main": "dist/index.js",
   "author": "Ryan Hinchey",

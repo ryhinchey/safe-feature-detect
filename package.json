@@ -1,10 +1,14 @@
 {
   "name": "safe-feature-detect",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "A simple and tiny browser feature detection library",
   "main": "dist/index.js",
   "author": "Ryan Hinchey",
   "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf dist && mkdir dist",
+    "build": "npm run clean && babel index.js --out-file dist/index.js"
+  },
   "devDependencies": {
     "@babel/cli": "7.8.4",
     "@babel/core": "7.8.4",

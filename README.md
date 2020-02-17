@@ -1,7 +1,7 @@
 # 🕵️ safe-feature-detect
 
 A lightweight and extendable feature detection library heavily inspired by the great [Feature.js](http://featurejs.com/).  Like Feature.js, this library stays under 1kb minified & gzipped.
-In addition, safe-feature-detect caches detections and will not throw an error if for some reason it's called during server side rendering.
+In addition, `safe-feature-detect` caches detections and will not throw an error if for some reason it's called during server side rendering.
 
 ## Installation
 `npm install safe-feature-detect`
